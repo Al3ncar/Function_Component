@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+function Menssage(){
+  return(
+    <div>
+      <div>
+        <h1>
+          Usando react
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Aqui estou usando react, dentro do meu js. incrivel não é mesmo!!?
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
+      <div>
+        <h2>Usando Listas</h2>
+        <h3>Mercado</h3>
+        <ul>
+          <li>Arroz</li>
+          <li>Feijao</li>
+          <li>Pimentao</li>
+          <li>Cebola</li>
+        </ul>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default Menssage;
